@@ -1,0 +1,15 @@
+.intro__text-info_location {
+    padding: 0;
+    margin: 24px 0 0;
+}
+
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .intro__text-info_location {
+        margin: 32px 0 0;
+    }
+}
+@media  all and (max-width : 374px) {
+    .intro__text-info_location {
+        margin: 32px 0 0;
+    }
+}

@@ -1,0 +1,20 @@
+.section-title_size_lead {
+    max-width: 784px;
+    font-size: 96px;
+    line-height: 93px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .section-title_size_lead {
+        max-width: 330px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .section-title_size_lead {
+        max-width: 330px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

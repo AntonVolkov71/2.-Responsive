@@ -1,0 +1,13 @@
+.header__logo {
+    max-width: 176px;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .header__logo {
+        max-width: 142px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .header__logo {
+        max-width: 142px;
+    }
+}

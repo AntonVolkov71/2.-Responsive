@@ -1,0 +1,21 @@
+.footer_location {
+    margin-top: 160px;
+   padding-bottom:  48px;
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .footer_location {
+        margin-top: 102px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .footer_location {
+        margin-top: 64px;
+       padding-bottom:  24px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .footer_location {
+        margin-top: 64px;
+       padding-bottom:  24px;
+    }
+}

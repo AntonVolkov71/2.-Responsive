@@ -1,0 +1,27 @@
+.container-l-places {
+      max-width: 984px;
+      margin: 0 auto;
+}
+@media only screen and (min-width: 1024px) and (max-width : 1279px) {
+    
+    .container-l-places {
+        width: 90.625%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .container-l-places {
+        width: 93.75%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .container-l-places {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media  all and (max-width : 374px) {
+    .container-l-places {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,6 @@
+@import url('_size/_lead/section-title_size_lead.css');
+@import url('_size/_section/section-title_size_section.css');
+.section-title {
+     font-weight: 800;
+     padding: 0;
+}

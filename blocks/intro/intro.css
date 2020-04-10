@@ -1,0 +1,23 @@
+@import url('_location/intro_location.css');
+@import url('__title/intro__title.css');
+@import url('__text-info/intro__text-info.css');
+@import url('__span-accent/intro__span-accent.css');
+@import url('__item/intro__item.css');
+@import url('__content/intro__content.css');
+
+
+.intro {
+    position: relative;
+    text-align: start;
+    padding: 80px 0 0;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .intro {
+        padding: 64px 0 0;
+    }
+}
+@media  all and (max-width : 374px) {
+    .intro {
+        padding: 64px 0 0;
+    }
+}

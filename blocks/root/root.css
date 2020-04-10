@@ -1,0 +1,31 @@
+
+@import url('../../fonts/InterWEB/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+@font-face {
+    font-family: "Inter";
+    src: url(..//..//fonts/Inter/Inter-Regular.woff) format("woff"),
+         url(..//..//fonts/Inter/Inter-Regular.woff2) format("woff2");
+}
+
+.root {
+    position: relative;
+    height: auto;
+    max-width: 1440px;
+    background-color:#2A2C2F;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+@import url('__item/places__item.css');
+@import url('__title/places__title.css');
+@import url('__website/places__website.css');
+@import url('__url-heading/place__url-heading.css');
+@import url('__url/places__url.css');
+@import url('__image/places__image.css');
+@import url('__paragraph/places__paragraph.css');
+@import url('__description/places__decription.css');
+
+.places {position: relative;
+    padding: 92px 0 0;
+    text-align: start;
+}

@@ -1,0 +1,18 @@
+.margin-for-video {
+    margin-left: 30px;
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .video__item .margin-for-video {
+        margin-left: 25px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .video__item .margin-for-video {
+        margin-left: 24px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .video__item .margin-for-video {
+        margin-left: 16px;
+    }
+}

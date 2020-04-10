@@ -1,0 +1,22 @@
+@import url(_status/_active/header__lang_status_active.css);
+.header__lang {
+    font-size: 24px;
+    line-height: 24px ;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 18px;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 42px ;
+        margin-left: 16px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px ;
+        margin-left: 16px;
+    }
+}

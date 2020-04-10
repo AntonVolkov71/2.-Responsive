@@ -1,0 +1,12 @@
+.intro__content {
+    display: block;
+    max-width: 684px;
+    padding: 48px 0 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+@media only screen and (min-width: 1024px) and (max-width : 1279px) {
+    .intro__content {
+        max-width: 692px;
+    }
+}

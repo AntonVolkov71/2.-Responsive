@@ -1,0 +1,20 @@
+@import url(_location/intro__text-info_location.css);
+@import url(../__item/intro__item.css);
+@import url(../__span-accent/intro__span-accent.css);
+.intro__text-info {
+    list-style: none;
+    height: auto;
+    max-width: 384px;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .intro__text-info {
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .intro__text-info {
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
