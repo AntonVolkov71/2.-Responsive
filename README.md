@@ -1,6 +1,6 @@
 # Responsive
 
-[Адаптивный одностраничный сайт](https://antonvolkov71.github.io/1.-Responsive/) 
+[Адаптивный одностраничный сайт](https://antonvolkov71.github.io/2.-Responsive/) 
 
 ### Версия проекта v0.0.1
 
