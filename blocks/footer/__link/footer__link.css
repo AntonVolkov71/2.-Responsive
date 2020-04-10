@@ -1,0 +1,30 @@
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 41px;
+   margin: 0 18px 0 0;
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .footer__link {
+        margin: 0 18px 0 0;
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .footer__link {
+        line-height: 28px;
+    }
+    .footer__link:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .footer__link {
+        line-height: 28px;
+    }
+    .footer__link:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}

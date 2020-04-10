@@ -1,0 +1,25 @@
+.container-l-narrow {
+      max-width: 984px;
+      margin: 0 auto;
+}
+@media only screen and (min-width: 1024px) and (max-width : 1279px) {
+      .root .container-l-narrow {
+          max-width: 90.625%;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+      .root .container-l-narrow {
+            max-width: 93.75%;
+        }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+      .root .container-l-narrow {
+            max-width: 91.4667%;
+        }
+}
+@media  all and (max-width : 374px) {
+      .root .container-l-narrow {
+            min-width: 288px;
+            max-width: 90%;
+        }
+}

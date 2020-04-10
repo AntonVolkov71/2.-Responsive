@@ -1,0 +1,25 @@
+.lead__groupe-image {
+    position: absolute;
+    top: 22.738%;
+    bottom: 0;
+    left:0;
+    right:0;
+    max-width: 95.23%;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .lead__groupe-image {
+        margin: 96px auto 0;
+    }
+    
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .lead__groupe-image {
+        margin: 48.3px auto 0;
+    }
+}
+@media  all and (max-width : 374px) {
+    .lead__groupe-image {
+        margin: 48px auto 0;
+    }
+}

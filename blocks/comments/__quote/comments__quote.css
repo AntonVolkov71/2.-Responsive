@@ -1,0 +1,33 @@
+.comments__qoute {
+    width: 100%;
+    padding:0;
+    margin: 42px 0 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+@media only screen and (min-width: 1024px) and (max-width : 1279px) {
+    .comments__qoute {
+        margin: 40px 0 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .comments__qoute {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .comments__qoute {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+}
+@media  all and (max-width : 374px) {
+    .comments__qoute {
+        font-size: 16px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+}

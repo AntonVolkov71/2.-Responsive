@@ -1,0 +1,14 @@
+.places__paragraph {
+    padding: 0 ;
+  max-width: 484px;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+  .places__paragraph {
+    max-width: 100%;
+  }
+}
+@media  all and (max-width : 374px) {
+  .places__paragraph {
+    max-width: 100%;
+  }
+}

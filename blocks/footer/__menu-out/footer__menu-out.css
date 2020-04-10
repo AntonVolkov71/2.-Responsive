@@ -1,0 +1,21 @@
+.footer__menu-out {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .footer__menu-out {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+@media  all and (max-width : 374px) {
+    .footer__menu-out {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

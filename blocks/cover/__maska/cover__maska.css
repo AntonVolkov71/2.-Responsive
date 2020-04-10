@@ -1,0 +1,11 @@
+.cover__maska {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);/* не красиво при полной прозрачности*/
+    top:0;
+    left:0;
+}
+.cover:hover > .cover__maska {
+    background-color: rgba(0, 0, 0, 0.8);
+}

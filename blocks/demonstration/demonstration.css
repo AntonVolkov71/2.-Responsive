@@ -1,0 +1,36 @@
+@import url('__item/demonstration__item.css');
+
+
+.demonstration {
+    position: relative;
+    height: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));  
+    grid-gap: 16px;
+    padding: 102px 0 0;
+}
+@media only screen and (min-width: 1024px) and (max-width : 1279px) {
+    
+    .demonstration {
+       grid-gap: 14px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .demonstration {
+        grid-gap: 16px;
+        padding: 97px 0 0;
+     }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .demonstration {
+        grid-gap: 16px;
+        padding: 64px 0 0;
+    }
+}
+@media  all and (max-width : 374px) {
+    .demonstration {
+        grid-gap: 8px;
+        padding: 64px 0 0;
+    }
+}

@@ -1,0 +1,21 @@
+@import url(_location/intro__title_location.css);
+
+.intro__title {
+    font-size: 54px;
+    line-height: 59px;
+    font-weight: 900;
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 2.1875rem;
+        font-weight: 900;
+    }
+}
+@media  all and (max-width : 374px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        font-weight: 900;
+    }
+}

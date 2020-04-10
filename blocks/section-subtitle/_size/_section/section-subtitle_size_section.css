@@ -1,0 +1,25 @@
+.section-subtitle_size_section {
+    max-width: 640px;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 48px auto 0;
+}
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+    .section-subtitle_size_section {
+        margin: 24px auto 0;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width : 767px) {
+    .section-subtitle_size_section {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 1rem auto 0;
+    }
+}
+@media  all and (max-width : 374px) {
+    .section-subtitle_size_section {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0;
+    }
+}
